@@ -40,16 +40,17 @@ Paola est un assistant vocal développé en Python, conçu pour s'exécuter sur 
 ```
 paola-assistant/
 ├── paola_complet.py              # Script principal en Python
-├── requirements.txt              # Dépendances Python à installer
-├── README.md                     # Présentation du projet (fourni)
-├── docs/                         # Documentation technique
-│   └── architecture.md           # Description de l'architecture du système
-├── arduino/                      # Codes Arduino pour les modules
-│   ├── leds.ino                  # Commandes de LEDs RGB
-│   ├── humidite.ino              # Capteur d'humidité (DHT11 ou équivalent)
-│   └── bluetooth.ino             # Communication Bluetooth (optionnel)
-└── assets/                       # (optionnel) images, sons, capturess
-    └── (ajouter screenshots ou enregistrements si besoin)
+├── requirements.txt              # Dépendances Python
+├── README.md                     # Présentation du projet
+├── docs/
+│   └── architecture.md           # Documentation technique
+├── arduino/                      # Dossiers des modules Arduino
+│   ├── bluetooh/
+│   │   └── bluetooh.ino
+│   ├── humidite/
+│   │   └── humidite.ino
+│   └── leds/
+│       └── leds.ino
 ```
 
 ## Installation
